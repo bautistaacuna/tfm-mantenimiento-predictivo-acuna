@@ -16,6 +16,7 @@ Solución end-to-end para la detección temprana y diagnóstico de fallas en sis
 El sistema fue desarrollado y validado sobre el dataset **APS Failure at Scania Trucks** (UCI Machine Learning Repository).
 
 ## Estructura del repositorio
+'''
 tfm-mantenimiento-predictivo-acuna/
 ├── app/
 │   ├── api/
@@ -36,6 +37,7 @@ tfm-mantenimiento-predictivo-acuna/
 ├── outputs/
 ├── requirements.txt
 └── README.md
+'''
 
 ## Requisitos
 
