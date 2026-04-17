@@ -16,28 +16,26 @@ Solución end-to-end para la detección temprana y diagnóstico de fallas en sis
 El sistema fue desarrollado y validado sobre el dataset **APS Failure at Scania Trucks** (UCI Machine Learning Repository).
 
 ## Estructura del repositorio
-'''
-tfm-mantenimiento-predictivo-acuna
-|-app
-| |-api
-| | |-main.py				# API REST con FastAPI
-| |-dashboard
-| | |-dashboard.py			# Dashboard interactivo con Streamlit
-|- data                  		# Dataset (no incluido, ver instrucciones)
-|- models               		# Modelos entrenados serializados
-| |-random_forest.pkl
-| |-resultados_modelos.pkl
-| |-shap_data.pkl
-| |-xgboost.pkl
-|- notebooks            		# Análisis exploratorio y experimentos
-| |- 01_Preprocesamiento.ipynb   	# Preprocesamiento e imputación
-| |- 02_modelado.ipynb           	# Entrenamiento de modelos
-| |- 03_shap.ipynb   		      	# Explicabilidad con SHAP
-| |- 04_diagnosticos_claude.ipynb	# Integración con Claude API
-|- outputs
-|- requirements.txt
-|- README.md
-'''
+tfm-mantenimiento-predictivo-acuna/
+├── app/
+│   ├── api/
+│   │   └── main.py              # API REST con FastAPI
+│   └── dashboard/
+│       └── dashboard.py         # Dashboard interactivo con Streamlit
+├── data/                        # Dataset (no incluido, ver instrucciones)
+├── models/                      # Modelos entrenados serializados
+│   ├── random_forest.pkl
+│   ├── resultados_modelos.pkl
+│   ├── shap_data.pkl
+│   └── xgboost.pkl
+├── notebooks/
+│   ├── 01_Preprocesamiento.ipynb    # Preprocesamiento e imputación
+│   ├── 02_modelado.ipynb            # Entrenamiento de modelos
+│   ├── 03_shap.ipynb                # Explicabilidad con SHAP
+│   └── 04_diagnosticos_claude.ipynb # Integración con Claude API
+├── outputs/
+├── requirements.txt
+└── README.md
 
 ## Requisitos
 
