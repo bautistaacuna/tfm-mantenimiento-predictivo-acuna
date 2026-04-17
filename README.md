@@ -102,10 +102,11 @@ Abrir el navegador en `http://localhost:8501`
 
 ## Tecnologías utilizadas
 
-Componente: Tecnología
-Modelos de ML: Scikit-learn, XGBoost
-Explicabilidad: SHAP
-API REST: FastAPI 
-Dashboard: Streamlit
-Diagnósticos en lenguaje natural: Anthropic Claude API
-Notebooks: Jupyter
+| Componente | Tecnología |
+|---|---|
+| Modelos de ML | Scikit-learn, XGBoost |
+| Explicabilidad | SHAP |
+| API REST | FastAPI |
+| Dashboard | Streamlit |
+| Diagnósticos en lenguaje natural | Anthropic Claude API |
+| Notebooks | Jupyter |
